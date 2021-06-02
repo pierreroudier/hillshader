@@ -8,9 +8,14 @@ Authors@R:
            email = "pierre.roudier@gmail.com",
            comment = c(ORCID = "0000-0001-7431-2603"))
 Description: The `hillshader` package is a wrapper around `rayshader` 
-to create hillshade relief maps using ray-tracing.
+   to create hillshade relief maps using ray-tracing.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports:
+  raster,
+  rayshader
+Depends: 
+    R (>= 2.10)
