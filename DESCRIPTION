@@ -1,13 +1,14 @@
 Package: hillshader
-Title: What the Package Does (One Line, Title Case)
+Title: Create Hillshade Relief Maps Using Ray-Tracing
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Pierre",
+           family = "Roudier",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "pierre.roudier@gmail.com",
+           comment = c(ORCID = "0000-0001-7431-2603"))
+Description: The `hillshader` package is a wrapper around `rayshader` 
+to create hillshade relief maps using ray-tracing.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
