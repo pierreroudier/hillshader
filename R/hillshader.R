@@ -53,7 +53,8 @@ hillshader <- function(
     for(i in 2:length(shades)) {
       res <- add_shadow_2d(
         hillshade = res,
-        shadowmap = shades[[i]]
+        shadowmap = shades[[i]],
+        ...
       )
     }
   }
