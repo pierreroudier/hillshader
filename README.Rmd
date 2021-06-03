@@ -30,6 +30,8 @@ remotes::install_github("pierreroudier/hillshader")
 
 ## First steps
 
+### The `hillshader` function
+
 ```{r load_libs}
 library(raster)
 library(rayshader)
@@ -46,3 +48,63 @@ hs <- hillshader(elevation = maungawhau_hr)
 plot_map(hs)
 ```
 
+### More shaders!
+
+```{r hillshader2}
+hs <- hillshader(
+  elevation = maungawhau_hr, 
+  shader = c("ray_shade", "ambient_shade")
+)
+
+plot_map(hs)
+```
+
+
+### Changing sun position
+
+```{r hillshader3}
+hs <- hillshader(
+  elevation = maungawhau_hr, 
+  shader = c("ray_shade", "ambient_shade"),
+  sunangle = 180,
+  sunaltitude = 25
+)
+
+plot_map(hs)
+```
+
+### Saving to file
+
+```{r hillshader4, eval=FALSE}
+hillshader(
+  elevation = maungawhau_hr, 
+  shader = c("ray_shade", "ambient_shade"),
+  sunangle = 180,
+  sunaltitude = 25,
+  filename = "hillshade.tif"
+)
+```
+
+## Advanced use in the `rayshader` pipelines
+
+The `hillshader` package provides three functions that can be used within the `rayshader` pipelines:
+
+- `add_shadow_2d`,
+- `matrix_to_raster`,
+- `write_raster`
+
+```{r advanced, eval=FALSE}
+el_mat <- raster_to_matrix(maungawhau_hr)
+
+el_mat %>% 
+  ray_shade %>%
+  add_shadow_2d(
+    ambient_shade(
+      heightmap = el_mat
+    )
+  ) %>% 
+  write_raster(
+    elevation = maungawhau_hr,
+    filename = "hillshade.tif"
+  )
+```
