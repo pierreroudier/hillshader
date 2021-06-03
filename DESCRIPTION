@@ -24,6 +24,7 @@ Depends:
 Collate: 
     'add_shadow_2d.R'
     'matrix_to_raster.R'
+    'write_raster.R'
+    'hillshader.R'
     'maungawhau.R'
     'maungawhau_hr.R'
-    'write_raster.R'
