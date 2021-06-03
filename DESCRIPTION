@@ -19,3 +19,9 @@ Imports:
   rayshader
 Depends: 
     R (>= 2.10)
+Collate: 
+    'add_shadow_2d.R'
+    'matrix_to_raster.R'
+    'maungawhau.R'
+    'maungawhau_hr.R'
+    'write_raster.R'
