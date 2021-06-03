@@ -15,6 +15,6 @@ r <- raster("./data-raw/akl-lidar.tif")
 gf <- focalWeight(r, 2, "Gauss")
 rg <- focal(r, w = gf)
 
-maungawhau_hr <- rg
+maungawhau_hr <- r
 
 usethis::use_data(maungawhau_hr, overwrite = TRUE)
