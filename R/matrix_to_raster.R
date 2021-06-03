@@ -7,7 +7,8 @@
 #' @param crs If an `Extent` object is passed to the `raster` option, the corresponding coordinate reference system information.
 #'
 #' @export
-#' @importFrom raster extent projection raster flip
+#' @importFrom raster extent `extent<-` projection `projection<-` raster flip
+#' @importFrom methods is
 #'
 #' @author Pierre Roudier
 #'
