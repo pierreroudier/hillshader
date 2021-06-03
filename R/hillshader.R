@@ -38,7 +38,7 @@ hillshader <- function(
       )
 
       # Apply shader
-      res_shd <- shd(
+      res_shd <- shader_fun(
         heightmap = mat,
         ...
       )
@@ -59,7 +59,11 @@ hillshader <- function(
   }
 
   if (!is.null(filename)) {
-    write_raster(res, filename = filename)
+    write_raster(
+      hillshade = res,
+      elevation = elevation,
+      filename = filename
+    )
     return(invisible(NULL))
   } else {
     rast <- matrix_to_raster(res, raster = elevation)
