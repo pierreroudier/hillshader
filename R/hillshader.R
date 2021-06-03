@@ -62,7 +62,8 @@ hillshader <- function(
     write_raster(
       hillshade = res,
       elevation = elevation,
-      filename = filename
+      filename = filename,
+      ...
     )
     return(invisible(NULL))
   } else {
