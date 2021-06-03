@@ -25,6 +25,7 @@ Collate:
     'add_shadow_2d.R'
     'matrix_to_raster.R'
     'write_raster.R'
+    'utils.R'
     'hillshader.R'
     'maungawhau.R'
     'maungawhau_hr.R'
