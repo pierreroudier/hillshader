@@ -4,6 +4,8 @@
 # hillshader
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/pierreroudier/hillshader/workflows/R-CMD-check/badge.svg)](https://github.com/pierreroudier/hillshader/actions)
 <!-- badges: end -->
 
 The `hillshader` package is a wrapper around the `rayshader` and
