@@ -13,6 +13,11 @@
 #'
 #' @author Pierre Roudier
 #'
+#' @example
+#'
+#' hs <- hillshader(maungawhau)
+#' plot(hs)
+#'
 hillshader <- function(
   elevation,
   shader = "ray_shade",
