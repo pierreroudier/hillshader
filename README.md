@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/pierreroudier/hillshader/workflows/R-CMD-check/badge.svg)](https://github.com/pierreroudier/hillshader/actions)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/hillshader)](https://CRAN.R-project.org/package=hillshader)
 <!-- badges: end -->
 
 The `hillshader` package is a wrapper around the `rayshader` and
