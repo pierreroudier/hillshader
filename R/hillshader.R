@@ -15,6 +15,7 @@
 #'
 #' @example
 #'
+#' # Simple example
 #' hs <- hillshader(maungawhau)
 #' plot(hs)
 #'

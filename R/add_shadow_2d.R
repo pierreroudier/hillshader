@@ -12,6 +12,22 @@
 #' @export
 #' @importFrom scales rescale
 #'
+#' @examples
+#'
+#' library(rayshader)
+#'
+#' # Create elevation matrix
+#' maungawhau %>%
+#'  raster_to_matrix() %>%
+#'  # Create hillshade layer using
+#'  # ray-tracing
+#'  ray_shade() %>%
+#'  # Add ambient shading
+#'  add_shadow_2d(
+#'    ambient_shade(
+#'    heightmap = el_mat
+#'  )
+#'
 add_shadow_2d <- function(hillshade, shadowmap, max_darken = 0.7, rescale_original = FALSE) {
   hillshade <- hillshade ^ 2.2
   # This is where we divert from rayshader::add_shadow

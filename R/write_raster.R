@@ -14,6 +14,29 @@
 #'
 #' @author Pierre Roudier
 #'
+#' @examples
+#'
+#' library(rayshader)
+#'
+#' out_fn <- paste0(tempfile(), ".tif")
+#'
+#' # Create elevation matrix
+#' maungawhau %>%
+#'  raster_to_matrix() %>%
+#'  # Create hillshade layer using
+#'  # ray-tracing
+#'  ray_shade() %>%
+#'  # Add ambient shading
+#'  add_shadow_2d(
+#'    ambient_shade(
+#'      heightmap = el_mat
+#'    )
+#'  ) %>%
+#'  write_raster(
+#'    elevation = maungawhau,
+#'    filename = out_fn
+#'  )
+#'
 write_raster <- function(hillshade, elevation, filename, format, ...) {
 
   res <- matrix_to_raster(hillshade, raster = elevation)
