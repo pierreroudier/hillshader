@@ -150,7 +150,7 @@ el_mat %>%
       heightmap = el_mat
     )
   ) %>% 
-  # Wirite to GIS file
+  # Write to GIS file
   write_raster(
     elevation = maungawhau_hr,
     filename = "hillshade.tif"
