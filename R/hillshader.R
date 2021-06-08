@@ -2,18 +2,21 @@
 #'
 #' @description .
 #'
-#' @param elevation Raster
-#' @param shader Character. List of `rayshader` shader to sequentially apply. Default to `ray_shade`.
-#' @param filename Character. If set, the result if written as a raster file.
-#' @param ... Additional parameters
+#' @param elevation Raster, a digital elevation model.
+#' @param shader Character. List of `rayshader` shader(s) to sequentially apply. Defaults to `ray_shade`.
+#' @param filename Character. If set, the result if written as a raster file. Defaults to `NULL`.
+#' @param ... Additional parameters to be passed to the either shader functions or to `raster::writeRaster`.
+#'
+#' @returns Either a `RasterLayer` of light intensities (hillshade), or writes the result to disk if `filename` is set.
 #'
 #' @export
+#'
 #' @importFrom rayshader raster_to_matrix ray_shade lamb_shade ambient_shade
 #' @include utils.R add_shadow_2d.R matrix_to_raster.R write_raster.R
 #'
 #' @author Pierre Roudier
 #'
-#' @example
+#' @examples
 #'
 #' # Simple example
 #' hs <- hillshader(maungawhau)

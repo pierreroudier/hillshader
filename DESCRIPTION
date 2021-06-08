@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "pierre.roudier@gmail.com",
            comment = c(ORCID = "0000-0001-7431-2603"))
-Description: The `hillshader` package is a wrapper around `rayshader` 
-   to create hillshade relief maps using ray-tracing.
+Description: Create hillshade relief maps using ray-tracing.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

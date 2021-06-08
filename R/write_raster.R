@@ -8,6 +8,8 @@
 #' @param format Character. Output file type. Passed to `raster::writeRaster`.
 #' @param ... Additional arguments passed to `raster::writeRaster`.
 #'
+#' @returns This function is used for the side-effect of writing values to a file.
+#'
 #' @export
 #'
 #' @importFrom raster raster setValues writeRaster

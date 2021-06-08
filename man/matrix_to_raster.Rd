@@ -13,6 +13,9 @@ matrix_to_raster(matrix, raster, crs = NULL)
 
 \item{crs}{If an \code{Extent} object is passed to the \code{raster} option, the corresponding coordinate reference system information.}
 }
+\value{
+a \code{RasterLayer}
+}
 \description{
 Turns a matrix into a Raster
 }

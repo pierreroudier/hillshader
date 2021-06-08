@@ -7,16 +7,26 @@
 hillshader(elevation, shader = "ray_shade", filename = NULL, ...)
 }
 \arguments{
-\item{elevation}{Raster}
+\item{elevation}{Raster, a digital elevation model.}
 
-\item{shader}{Character. List of \code{rayshader} shader to sequentially apply. Default to \code{ray_shade}.}
+\item{shader}{Character. List of \code{rayshader} shader(s) to sequentially apply. Defaults to \code{ray_shade}.}
 
-\item{filename}{Character. If set, the result if written as a raster file.}
+\item{filename}{Character. If set, the result if written as a raster file. Defaults to \code{NULL}.}
 
-\item{...}{Additional parameters}
+\item{...}{Additional parameters to be passed to the either shader functions or to \code{raster::writeRaster}.}
+}
+\value{
+Either a \code{RasterLayer} of light intensities (hillshade), or writes the result to disk if \code{filename} is set.
 }
 \description{
 .
+}
+\examples{
+
+# Simple example
+hs <- hillshader(maungawhau)
+plot(hs)
+
 }
 \author{
 Pierre Roudier

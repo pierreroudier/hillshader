@@ -15,6 +15,9 @@ add_shadow_2d(hillshade, shadowmap, max_darken = 0.7, rescale_original = FALSE)
 
 \item{rescale_original}{Ignored.}
 }
+\value{
+A shaded map.
+}
 \description{
 Multiplies a texture array or shadow map by a shadow map.
 }

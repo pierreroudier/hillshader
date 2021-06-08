@@ -17,6 +17,9 @@ write_raster(hillshade, elevation, filename, format, ...)
 
 \item{...}{Additional arguments passed to \code{raster::writeRaster}.}
 }
+\value{
+This function is used for the side-effect of writing values to a file.
+}
 \description{
 Write an array from a hillshade procedure to a geospatial raster file.
 }

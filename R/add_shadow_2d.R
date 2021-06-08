@@ -7,6 +7,8 @@
 #' @param max_darken Default '0.7'. The lower limit for how much the image will be darkened. 0 is completely black, 1 means the shadow map will have no effect.
 #' @param rescale_original Ignored.
 #'
+#' @returns A shaded map.
+#'
 #' @author Slight modification from Tyler's code in `rayshader::add_shadow`
 #'
 #' @export

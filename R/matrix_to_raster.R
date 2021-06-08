@@ -6,7 +6,10 @@
 #' @param raster The original raster from which `matrix` is derived. Can be an `Extent` object.
 #' @param crs If an `Extent` object is passed to the `raster` option, the corresponding coordinate reference system information.
 #'
+#' @returns a `RasterLayer`
+#'
 #' @export
+#'
 #' @importFrom raster extent `extent<-` projection `projection<-` raster flip
 #' @importFrom methods is
 #'
