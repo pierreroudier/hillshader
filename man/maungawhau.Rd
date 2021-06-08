@@ -8,7 +8,7 @@
 A \code{RasterLayer} with 87 rows, 61 columns, and 1 band with the elevation data at a 10-m resolution. The data is projected in New Zealand Map Grid (NZMG, EPSG:27200).
 }
 \source{
-Elevation data from \code{datasets::volcano}, georeferencing adapted from \url{https://waterdata.usgs.gov/blog/inlmiscmaps}
+Elevation data from \code{datasets::volcano}, georeferencing adapted from \url{https://waterdata.usgs.gov/blog/inlmiscmaps/}
 }
 \usage{
 maungawhau
