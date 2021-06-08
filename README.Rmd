@@ -45,7 +45,7 @@ library(rayshader)
 library(hillshader)
 ```
 
-Note that the `hillshader` package includes the `maungawhau` and `maungawhau_hr` datasets. These are geo-referenced, raster datasets. `maungawhau` corresponds to the well-known `volcano` dataset. It is a $87 \times 61$ elevation  matrix for Maungawhau, one of the circa 80 volcanoes in the Auckland volcano filed, in Aotearoa/New Zealand. The `maungawhau_hr` dataset is a "high-resolution" version of that dataset, and is a 1 m resolution, $860 \times 600$ elevation matrix derived from a LiDAR dataset collected by LINZ. 
+Note that the `hillshader` package includes the `maungawhau` and `maungawhau_hr` datasets. These are geo-referenced, raster datasets. `maungawhau` corresponds to the well-known `volcano` dataset. It is a $87 \times 61$ elevation  matrix for [Maungawhau](https://en.wikipedia.org/wiki/Maungawhau_/_Mount_Eden), one of the circa 80 volcanoes in the Auckland volcano filed, in Aotearoa/New Zealand. The `maungawhau_hr` dataset is a "high-resolution" version of that dataset, and is a 1 m resolution, $860 \times 600$ elevation matrix derived from a LiDAR dataset recorded by NZ Aerial Mapping & Aerial Surveying Limited for Auckland Council, and [distributed by Land Information New Zealand](https://data.linz.govt.nz/layer/53405-auckland-lidar-1m-dem-2013/). 
 
 ```{r mwh}
 layout(matrix(c(1,2), nrow = 1, ncol = 2))
