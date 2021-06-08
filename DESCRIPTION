@@ -19,6 +19,8 @@ Imports:
   raster,
   rayshader,
   scales
+Suggests:
+  rgdal
 Depends: 
     R (>= 2.10)
 Collate: 
