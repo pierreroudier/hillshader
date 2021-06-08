@@ -4,3 +4,4 @@
 ^README\.Rmd$
 ^LICENSE\.md$
 ^\.github$
+^CRAN-RELEASE$
