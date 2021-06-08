@@ -19,6 +19,8 @@
 #' @examples
 #'
 #' # Simple example
+#' library(raster)
+#'
 #' hs <- hillshader(maungawhau)
 #' plot(hs)
 #'

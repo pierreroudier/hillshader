@@ -24,6 +24,8 @@ Either a \code{RasterLayer} of light intensities (hillshade), or writes the resu
 \examples{
 
 # Simple example
+library(raster)
+
 hs <- hillshader(maungawhau)
 plot(hs)
 
