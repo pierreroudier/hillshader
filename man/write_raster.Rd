@@ -20,6 +20,32 @@ write_raster(hillshade, elevation, filename, format, ...)
 \description{
 Write an array from a hillshade procedure to a geospatial raster file.
 }
+\examples{
+
+library(rayshader)
+
+out_fn <- paste0(tempfile(), ".tif")
+
+# Create elevation matrix
+el_mat <- maungawhau \%>\%
+ raster_to_matrix()
+
+ el_mat \%>\%
+ # Create hillshade layer using
+ # ray-tracing
+ ray_shade() \%>\%
+ # Add ambient shading
+ add_shadow_2d(
+   ambient_shade(
+     heightmap = el_mat
+   )
+ ) \%>\%
+ write_raster(
+   elevation = maungawhau,
+   filename = out_fn
+ )
+
+}
 \author{
 Pierre Roudier
 }

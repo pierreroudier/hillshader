@@ -9,6 +9,7 @@
 #' @param ... Additional arguments passed to `raster::writeRaster`.
 #'
 #' @export
+#'
 #' @importFrom raster raster setValues writeRaster
 #' @include matrix_to_raster.R
 #'
@@ -21,8 +22,10 @@
 #' out_fn <- paste0(tempfile(), ".tif")
 #'
 #' # Create elevation matrix
-#' maungawhau %>%
-#'  raster_to_matrix() %>%
+#' el_mat <- maungawhau %>%
+#'  raster_to_matrix()
+#'
+#'  el_mat %>%
 #'  # Create hillshade layer using
 #'  # ray-tracing
 #'  ray_shade() %>%

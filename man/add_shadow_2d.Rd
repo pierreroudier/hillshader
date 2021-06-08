@@ -18,6 +18,25 @@ add_shadow_2d(hillshade, shadowmap, max_darken = 0.7, rescale_original = FALSE)
 \description{
 Multiplies a texture array or shadow map by a shadow map.
 }
+\examples{
+
+library(rayshader)
+
+# Create elevation matrix
+el_mat <- raster_to_matrix(maungawhau)
+
+el_mat \%>\%
+ # Create hillshade layer using
+ # ray-tracing
+ ray_shade() \%>\%
+ # Add ambient shading
+ add_shadow_2d(
+   ambient_shade(
+     heightmap = el_mat
+   )
+ )
+
+}
 \author{
 Slight modification from Tyler's code in \code{rayshader::add_shadow}
 }
