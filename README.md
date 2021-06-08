@@ -108,6 +108,34 @@ plot_map(hs)
 
 <img src="man/figures/README-hillshader3-1.png" width="100%" />
 
+### How does it compare to your usual hillshade method?
+
+``` r
+library(raster)
+
+slope <- terrain(maungawhau_hr, out = "slope")
+aspect <- terrain(maungawhau_hr, out = "aspect")
+hs_raster <- hillShade(
+  slope, 
+  aspect, 
+  angle = 40, 
+  direction = 325
+)
+
+hs_hillshader <- hillshader(
+  maungawhau_hr, 
+  c("ray_shade", "ambient_shade"),
+  sunangle = 325,
+  sunaltitude = 40
+)
+
+layout(matrix(c(1,2), nrow = 1, ncol = 2))
+image(hs_raster, asp = 1, main = "Classic hillshade", col = grey.colors(100))
+image(hs_hillshader, asp = 1, main = "Ray-traced hillshade", col = grey.colors(100))
+```
+
+<img src="man/figures/README-hs-compare-1.png" width="100%" />
+
 ### Saving to file
 
 If a `filename` is passed to `hillshader`, then the resulting hillshade
