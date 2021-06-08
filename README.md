@@ -71,8 +71,8 @@ plot_map(hs)
 ### Add more shaders!
 
 The `hillshader` function accept a `shader` option, with is a list of
-the sucessive shader functions to apply to create the hillshade layer.
-The accepeted values must be `rayshader` shader functions (`ray_shade`,
+the successive shader functions to apply to create the hillshade layer.
+The accepted values must be `rayshader` shader functions (`ray_shade`,
 `ambient_shade`, `lamb_shade`), and the order is important.
 
 ``` r
