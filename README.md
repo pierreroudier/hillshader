@@ -16,8 +16,14 @@ write them to (spatial) files.
 
 ## Installation
 
-You can install the development version of hillshader with the `remotes`
-package:
+The stable version of `hillshader` can be installed from CRAN:
+
+``` r
+install.packages("hillshader")
+```
+
+Alternatively, if you feel brave, you can install the development
+version of `hillshader` with the `remotes` package:
 
 ``` r
 remotes::install_github("pierreroudier/hillshader")

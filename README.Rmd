@@ -24,7 +24,13 @@ The `hillshader` package is a wrapper around the `rayshader` and `raster` packag
 
 ## Installation
 
-You can install the development version of hillshader with the `remotes` package:
+The stable version of `hillshader` can be installed from CRAN:
+
+```r
+install.packages("hillshader")
+```
+
+Alternatively, if you feel brave, you can install the development version of `hillshader` with the `remotes` package:
 
 ``` r
 remotes::install_github("pierreroudier/hillshader")
