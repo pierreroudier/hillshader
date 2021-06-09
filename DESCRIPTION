@@ -1,6 +1,6 @@
 Package: hillshader
 Title: Create Hillshade Relief Maps Using Ray-Tracing
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: 
     person(given = "Pierre",
            family = "Roudier",
