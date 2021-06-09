@@ -7,7 +7,11 @@ Authors@R:
            role = c("aut", "cre"),
            email = "pierre.roudier@gmail.com",
            comment = c(ORCID = "0000-0001-7431-2603"))
-Description: Create hillshade relief maps using ray-tracing.
+Description: A set of tools to create georeferenced hillshade relief 
+    raster maps using ray-tracing and other advanced hill-shading 
+    techniques. It includes a wrapper function to create a georeferenced,
+    ray-traced hillshade map from a digital elevation model, and other
+    functions that can be used in a rayshader pipeline. 
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
