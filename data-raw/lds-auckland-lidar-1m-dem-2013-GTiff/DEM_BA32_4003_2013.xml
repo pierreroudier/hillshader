@@ -1,0 +1,727 @@
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns="http://www.isotc211.org/2005/gmd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>333115ab-ca55-832f-b13e-2b82697458f8</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/GAScopeCodeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString/>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>LINZ - Land Information New Zealand</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Lidar Coordination Manager</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>04 4600110</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>155 The Terrace</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Wellington</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>6145</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>New Zealand</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>info@linz.govt.nz</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2017-03-15</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.1</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>2193</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Auckland Lidar 1m DEM (2013)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-11-30</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-06</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>This layer contains the DEM for LiDAR data from the Auckland region captured in 2013.
+The DSM is available as layer [Auckland Lidar 1m DSM (2013)](http://data.linz.govt.nz/layer/3406).
+The index tiles are available as layer [Auckland Lidar Index Tiles (2013)](http://data.linz.govt.nz/layer/3407).
+The LAS point cloud and vendor project reports are available from [OpenTopography](https://portal.opentopography.org/datasets?loc=New%20Zealand).
+
+
+Lidar was captured for Auckland Council by NZ Aerial Mapping &amp; Aerial Surveying Limited. The capture of the data commenced on 17th July and was completed by the 23 November 2013. The datasets were generated by both ASL and NZAM. All raw point cloud data was produced by NZAM &amp; ASL prior to data being sent to Genesys International for the data classification and product generation. The survey area includes the Auckland city urban area and adjacent rural land covering approximately 2250 square kilometers. Data management and distribution external to Auckland Council is managed by Land Information New Zealand.
+
+Data comprises:
+•DEM: 6423 asc files in NZTM projection, tiled into a 1:1,000 tile layout
+•DSM: 6423 asc files in NZTM projection, tiled into a 1:1,000 tile layout
+•Pont cloud: 8224 las files in NZTM projection, tiled into a 1:1,000 tile layout
+
+Data was collected at &gt; 1.5 point/square metre point density. Attributes include:
+-Elevation
+-Intensity values
+-Return number
+-Adjusted GPS time
+-Classification
+
+Vertical accuracy specification is +/-0.2m (@ 95% confidence)
+Horizontal accuracy specification is +/-0.6m (@ 95% confidence)
+
+Verical Datum is NZVD2009</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString/>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>LINZ - Land Information New Zealand</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Lidar Coordination Manager</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>04 4600110</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString/>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>155 The Terrace</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Wellington</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString/>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>6145</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>New Zealand</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>info@linz.govt.nz</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>*.xml</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>New Zealand</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-10-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 2.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:editionDate>
+                <gco:Date>2008-10-29</gco:Date>
+              </gmd:editionDate>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>LAND-Topography</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>LAND-Cover</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-05-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 2.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:editionDate>
+                <gco:Date>2008-05-16</gco:Date>
+              </gmd:editionDate>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+          </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council)"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>1000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>174.391862</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>175.135059</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-37.320988</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-36.337212</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ANZMet Lite Country codelist</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2009-03-31</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>Version 1.0</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:editionDate>
+                        <gco:Date>2009-03-31</gco:Date>
+                      </gmd:editionDate>
+                      <gmd:identifier>
+                        <gmd:MD_Identifier>
+                          <gmd:code>
+                            <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-country.xml#Country</gco:CharacterString>
+                          </gmd:code>
+                        </gmd:MD_Identifier>
+                      </gmd:identifier>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>nzl</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent/>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://data.linz.govt.nz/layer/53405-auckland-lidar-1m-dem-2013/</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>dataset</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Data Acquisition:
+Aerial Photography was captured using Vexcel's digital UCLp and UCE cameras:
+5-6 January 2015, 11 January 2015, 18-19 February 2015, 28 February 2015, 1-2 March 2015, 21
+March 2015.
+
+Equipment:
+The equipment used in this project included:
+
+Aerial Surveys
+ Cessna 206 single engine aircraft equipped with airborne GPS and flight management systems
+ Optech ALTM3100 LiDAR sensor
+
+NZAM
+ Rockwell Aerocommander 680 aircraft equipped with airborne GPS and flight management systems
+ Cessna 402B twin engine aircraft equipped with airborne GPS and flight management systems
+ Optech ALTM3100 LiDAR sensor
+ Optech Orion M200 LiDAR sensor
+ Optech Orion H300 LiDAR sensor
+NZAM replaced the Orion M200 LiDAR system with the Orion H300 system on 21 October 2013.
+
+Subcontractor Resources:
+The subcontractor resources used on this project were:
+Ground Control Surveys – Opus International and C&amp;R Surveyors (Auckland)
+LiDAR Classification and product generation – Genesys International Corporation (India)
+
+
+Data Acquisition:
+
+ ASL’s acquisition commenced on 17th July 2013 and ended on 21st October 2013
+ NZAM’s acquisition commenced on the 29th July 2013 and ended on 23rd November 2013
+ No imagery was captured with this project
+
+The key outputs from each and every sortie included:
+ Raw LiDAR data
+ Raw POS data
+ Flight Log report including any notable conditions encountered during capture
+ Flight coverage KML file for each sortie
+
+Point cloud generation:
+
+NZAM/ASL used Optech’s LMS (LiDAR Mapping Suite) Professional software for  the creation of the laser point cloud data and for  the examination, comparison and refinement of the fit of laser points between flightlines.
+
+The point cloud data is output from LMS in LAS v1.2 file format and each flightline of data stored in an individual file. The file names incorporate the unique sortie identifier in them so as the origin of the data is traceable. The las files were then examined in LiDAR production software - TerraSolid as well as LASTools and Global Mapper to complete the various checks on the data against project requirements including point density, point distribution and average point spacing. All point cloud data conformed to project requirements. The data in the LAS files output from LMS are in terms of NZTM map projection and NZGD2000 ellipsoidal heights. This data was then loaded into a TerraScan software project – NZAM and LAStools-ASL , tiled into NZTopo50 1:1,000 tiles and converted into Auckland 1964 vertical datum. (Auckland Council converted the heights to NZVD2009 before providing the data to LINZ.) An initial comparison of the unclassified point data and the Ground Check Surveying data was made to check that there are no gross positional and height errors in the dataset.
+
+All point cloud deliverables were delivered in the following 2 formats:
+ LAS v1.2
+ SHP (PointZ)
+Both LAS and SHP files include all standard attributes, including:
+ Elevation
+ Intensity values
+ Return number
+ GPS times recorded as adjusted GPS time, at a precision sufficient to allow unique timestamps for each pulse
+ Classification
+
+
+Point cloud classification:
+
+Point cloud classification for this project was undertaken by Genesys as the selected mapping subcontractor. Genesys used TerraScan by TerraSolid for point cloud classification.
+TerraScan interfaces to Bentley Microstation, enabling both batch and manual visual editing of data to take place. The DTM Point Cloud Classification process for this project involved, not only the identification of laser returns from the ground, but also the separation of the above ground points in to various classes. Classification of the point cloud followed the modified ASPRS classification scheme below:
+0 - Created, never classified
+1 - Unassigned classification
+2 - Ground
+3 - Low vegetation
+4 - Medium vegetation
+5 - High vegetation
+6 - Building structures
+7 - Low/high noise
+9 - Water
+
+ Classification of point clouds was done to Level 3 as set out in the ICSM LiDAR specifications for NZ
+ Classification of ground points was to an accuracy of 99%
+ All water points are included in the Raw point cloud but removed from the DTM products
+ All the points in the LAS files output from LMS have their class set to 0
+The software algorithms that attempt to classify points into classes such as Ground, Medium vegetation and Buildings do so by examining and testing the relationships between points and their neighbours. A discrete LIDAR return from water has no unique features that allow it to be separated from a return from the ground, and so the classification of points into the Water class is a manual process achieved by visualising the data on a workstation monitor and ‘paint brushing’ the points from their current class into the Water class.
+
+The key processing steps undertaken were:
+ Prepare and run automated overlap point and ground point classification routines customized for the unique combination of terrain cover and land-use within the project area
+ Manually edit the auto-classified data to remove artefacts, re-classify incorrectly coded points into and out of the Ground class and re-classify incorrectly coded points into the Water class.
+ Prepare and run automated point classification routines to populate the Vegetation classes and Building, Structures class.
+
+Supplementary points (LAS Standard Synthetic points) were added to the dataset to facilitate the production of contours and DEM/DSM products. Supplementary points are densely spaced points along breakline features that are manually mapped into the dataset, typically spaced by 0.3m. Such points were added around ponds, lakes and the coastline needed to ensure that contours don’t run into these areas, as well as the points added along the edge of significant streams and rivers to help ensure that contours created through these areas have a natural hydrological flow appearance to them. These points were integrated into the point cloud data but identifiable by their separate class code.
+
+Manual point classification work requires constant attention to detail and interpretation of complex geographies. The work was undertaken in a 2D workstation environment. The point data is viewed in plan and cross-section perspectives and tools are used to move points into and out of classes. The manual classification work for this project was undertaken by Genesys Incorporated in India. The classified data was subject to a two stage quality check. First examined by a dedicated team of QA/QC staff at Genesys and then by staff in NZAM and Aerial Surveys. The last, and very important, task performed during DTM Point Cloud Classification is to compare the ground check survey data with the DTM (ground) points. The computed height difference statistics were recorded and reported within the metadata. Positional checks were also be made, recorded and reported.
+
+All point classifications identified during processing were included in the raw point clouds (e.g. where points are identified to be 'noise', this was attributed as such in the raw point cloud data).
+Note that the raw point clouds were post-processed to meet the accuracy specifications of the project. No uncorrected / uncalibrated raw data was supplied.
+
+Sample point cloud filename: RPC_AZ31_1026_2013.las
+
+
+Bare earth DEM production:
+
+A raster Digital Elevation Model (DEM) was interpolated from the DTM points with the following specifications:
+ 1m cell size.
+ Format is ESRI ASCII
+ The DEM was generated from the LiDAR DTM (ground) points and define the bare earth surface.
+ DEM heights reference the NZVD2009 vertical datum. (Auckland Council adjusted this from the Auckland 1946 datum to NZVD2009 before providing the data to LINZ.)
+ Void areas (i.e. areas outside the project boundary but within any tiling scheme) are coded using a unique "NODATA" value.
+ Hydro-flattening undertaken for natural and man-made water bodies and water courses as defined below:
+o Non-tidal water bodies with a surface area greater (&gt;) than 625m2
+o Non-tidal water courses greater than 30m nominal width. This should not unnecessarily break a stream or river into multiple segments.
+o Flat and level bank-to-bank with a gradient following the immediate terrain
+o Water courses should break at road crossings and bridges
+o Sinks must not be filled
+o The entire water surface edge must be at or immediately below the surrounding terrain
+o Tidal variations over the course of the collection or between different collections may result in discontinuities along shorelines.
+
+Sample DEM filename:  DEM_AZ31_1026_2013.asc
+
+DSM production:
+
+A raster Digital Surface Model (DSM) interpolated from 1st returns with the following specifications:
+ 1m cell size.
+ Format is ESRI ASCII
+ The DSM to be created from 1st return LiDAR points and to include ground and non-ground points such as vegetation and buildings.
+  DSM heights reference the NZVD2009 vertical datum. (Auckland Council adjusted this from the Auckland 1946 datum to NZVD2009 before providing the data to LINZ.)
+ Void areas (i.e. areas outside the project boundary but within any tiling scheme)  coded using a unique "NODATA" value.
+
+Sample DSM filename:  DSM_AZ31_1026_2013.asc</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:accessConstraints>
+        <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+      </gmd:accessConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council)"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:accessConstraints>
+        <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+      </gmd:accessConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Released under Creative Commons Attribution 4.0 International
+Creative Commons Attribution 4.0 International
+Link: http://data.linz.govt.nz/license/attribution-4-0-international/
+
+Attribution Required for Copies:
+"Copyright in this work is owned by Auckland Council"
+
+Attribution Required for Derivative works:
+"Copyright in the underlying dataset from which this work has been derived is owned by Auckland Council"</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+</gmd:MD_Metadata>

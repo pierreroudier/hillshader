@@ -1,0 +1,80 @@
+<VRTDataset rasterXSize="693" rasterYSize="1017">
+  <SRS>PROJCS["NZGD2000 / New Zealand Transverse Mercator 2000",GEOGCS["NZGD2000",DATUM["New_Zealand_Geodetic_Datum_2000",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6167"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4167"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",173],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",1600000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","2193"]]</SRS>
+  <GeoTransform>  1.7569040000000000e+06,  1.0000000000000000e+00,  0.0000000000000000e+00,  5.9179580000000000e+06,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_3902_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="56" RasterYSize="38" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="56" ySize="38" />
+      <DstRect xOff="0" yOff="0" xSize="56" ySize="38" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_3903_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="480" RasterYSize="38" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="480" ySize="38" />
+      <DstRect xOff="56" yOff="0" xSize="480" ySize="38" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_3904_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="157" RasterYSize="38" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="157" ySize="38" />
+      <DstRect xOff="536" yOff="0" xSize="157" ySize="38" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_4002_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="56" RasterYSize="720" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="56" ySize="720" />
+      <DstRect xOff="0" yOff="38" xSize="56" ySize="720" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_4003_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="480" RasterYSize="720" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="480" ySize="720" />
+      <DstRect xOff="56" yOff="38" xSize="480" ySize="720" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_4004_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="157" RasterYSize="720" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="157" ySize="720" />
+      <DstRect xOff="536" yOff="38" xSize="157" ySize="720" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_4102_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="56" RasterYSize="259" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="56" ySize="259" />
+      <DstRect xOff="0" yOff="758" xSize="56" ySize="259" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_4103_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="480" RasterYSize="259" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="480" ySize="259" />
+      <DstRect xOff="56" yOff="758" xSize="480" ySize="259" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">lds-auckland-lidar-1m-dem-2013-GTiff/DEM_BA32_4104_2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="157" RasterYSize="259" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="157" ySize="259" />
+      <DstRect xOff="536" yOff="758" xSize="157" ySize="259" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
