@@ -1,6 +1,6 @@
 Package: hillshader
 Title: Create Hillshade Relief Maps Using Ray-Tracing
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person(given = "Pierre",
            family = "Roudier",
@@ -22,8 +22,6 @@ Imports:
   raster,
   rayshader,
   scales
-Suggests:
-  rgdal
 Depends: 
     R (>= 2.10)
 Collate: 
